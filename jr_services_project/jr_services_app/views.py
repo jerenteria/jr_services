@@ -33,6 +33,10 @@ def register(request):
         return redirect('/home')
     return redirect('/')
 
+def aboutus(request):
+    return render(request, "aboutus.html")
+
+
 def login(request):
     ## loging a user in
     if request.method=='POST':
