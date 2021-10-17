@@ -54,3 +54,6 @@ def login(request):
 def logout(request):
     request.session.clear()
     return redirect('/')
+
+def makePayment(request):
+    return redirect('/makePayment')
