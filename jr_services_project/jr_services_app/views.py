@@ -11,6 +11,7 @@ def success(request):
         return redirect('/')
     return render(request, "home.html")
 
+
 def register(request):
     if request.method=='POST':
         # validate the data
