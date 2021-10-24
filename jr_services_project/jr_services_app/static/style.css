@@ -1,8 +1,6 @@
-img{
+.img {
     display: inline-block;
     padding-top: 100px;
-    width: 150px;
+    width: 600px;
   }
-.image1 {
-    padding-left: 25px;
-  }
+
