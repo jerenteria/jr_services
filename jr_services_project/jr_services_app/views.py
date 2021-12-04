@@ -3,6 +3,7 @@ from django.contrib import messages
 import bcrypt
 from .models import *
 
+
 def index(request):
     return render(request, "index.html")
 
@@ -57,4 +58,4 @@ def logout(request):
     return redirect('/')
 
 def makePayment(request):
-    return redirect('/makePayment')
+    return render(request,"make_payment.html")

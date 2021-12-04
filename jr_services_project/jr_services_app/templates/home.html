@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
     
 
 </head>
 <body>
+  {% load static %}
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand">Hi {{request.session.user_name}}!</a>
@@ -23,7 +24,7 @@
                 <a class="nav-link active" aria-current="page" href="/home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/payment">Make A Payment</a>
+                <a class="nav-link" href="/make_payment">Make A Payment</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/aboutus">About Us</a>
@@ -34,12 +35,15 @@
             </ul>
           </div>
         </div>
-      </nav>
+    </nav>
       <h3 class="style">
         Welcome To JR services
         <small class="text-muted">A family owned business!</small>
       </h3>
-    
-    <img src="static/images/download.jpeg" alt="image4" height="250px">
+    <div id="center-images">
+      <img src="static/images/dad_pic1.jpg" alt="image1" height="550px">
+      <img src="static/images/carlos_pic2.jpg" alt="image2" height="550px">
+      <img src="static/images/dad_pic2.jpg" alt="image3" height="550px">
+    </div>
 </body>
 </html>
