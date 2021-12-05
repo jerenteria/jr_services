@@ -17,7 +17,7 @@ def stripe():
     session = stripe.checkout.Session.create(
         payment_method_types=['card'],
         line_items=[{
-            'price': 'price_1GtKWtIdX0gthvYPm4fJgrOr',
+            'price': 'price_1K32ZWIuO4V9XiaI1EfUtljP',
             'quantity': 1,
         }],
         mode='payment',
@@ -26,7 +26,7 @@ def stripe():
     )
     '''
     return render_template(
-        'index.html', 
+        'make_payment.html', 
         #checkout_session_id=session['id'], 
         #checkout_public_key=app.config['STRIPE_PUBLIC_KEY']
     )
@@ -36,7 +36,7 @@ def stripe_pay():
     session = stripe.checkout.Session.create(
         payment_method_types=['card'],
         line_items=[{
-            'price': 'price_1GtKWtIdX0gthvYPm4fJgrOr',
+            'price': 'price_1K32ZWIuO4V9XiaI1EfUtljP',
             'quantity': 1,
         }],
         mode='payment',
