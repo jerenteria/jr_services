@@ -41,7 +41,7 @@ def stripe_pay():
         }],
         mode='payment',
         success_url=url_for('thanks', _external=True) + '?session_id={CHECKOUT_SESSION_ID}',
-        cancel_url=url_for('index', _external=True),
+        cancel_url=url_for('make_payment', _external=True),
     )
     return {
         'checkout_session_id': session['id'], 
