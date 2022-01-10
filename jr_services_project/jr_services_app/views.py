@@ -2,7 +2,8 @@ from django.shortcuts import render, redirect
 from django.contrib import messages
 import bcrypt
 from .models import *
-from flask import Flask, url_for, render_template, request, abort
+## from flask import Flask, url_for, render_template, request, abort
+from .static import *
 import stripe
 
 app = Flask(__name__)
