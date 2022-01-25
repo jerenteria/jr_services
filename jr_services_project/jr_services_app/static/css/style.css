@@ -1,3 +1,21 @@
-#center-images {
-  padding-left: 215px;
+.image {
+  margin-left: 676px;
+  max-width: 100%;
+  display: inline-block;
+  align-content: center;
+}
+
+.text{
+  margin-left: 29px;
+  font-size: 20px;
+  font-family: cursive;
+  display: inline;
+  align-content: center;
+}
+
+.style {
+  font-family: cursive;
+  font-size: 50px;
+  text-align: center;
+  color: black;
 }
