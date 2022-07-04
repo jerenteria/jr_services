@@ -3,34 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="static/images/tree.png"/>
+
 </head>
 <body>
-    <h2>Register</h2>
-    {% if messages %}
-    <ul>
-        {% for error in messages %}
-        <li>{{error}}</li>
-        {% endfor %}
-    </ul>
-    {% endif %}
-    <form action="/create_user" method="POST"> 
-        {% csrf_token %}
-        First Name:<input type="text" name="f_n">
-        Last Name:<input type="text" name="l_n">
-        Email:<input type="email" name="email">
-        Password:<input type="password" name="pw">
-        Confirm Password:<input type="password" name="conf_pw">
-        <input type="submit" value="register">
-    </form>
-    <h2>Login</h2>
-    <form action="/login" method="POST">
-        {% csrf_token %}
-        Email:<input type="text" name="email">
-        Password:<input type="password" name="pw">
-        <input type="submit" value="Login">
-    </form>
-</body>
+  {% load static %}
+  <div id="container">
+    <h3 class="title">
+      Welcome To JR Services A Family Owned Business
+      <br>
+      With Over 25 Years of Experience!
+    </h3>
+    <div id="section1">
+          <span class="text">With over 25 years in the industry we have all the experience and tools we need to
+            get the job done right! Feel free to contact us for more information!
+          </span>
+          <div class="image">
+            <img src="static/images/dad_pic1.jpg" alt="image1" height="550px">
+          </div>
+    </div>
+    <div id="section2">
+      <span class="text">Getting ready to climb 60ft Oak tree in Los Altos Hills. We currently work in the
+        Los Altos Hills, Los Altos, and  Portola Valley area!
+      </span>
+      <div class="image2">
+        <img src="static/images/dad_pic2.jpg" alt="image1" height="550px">
+      </div>
+  </div>
+  <div id="section3">
+    <span class="text">Safety is our main concern. As you can see one of our workers cutting a huge
+      limb from a tree but being supported, so the branch does not come crashing down. This is the
+      experience you need to make sure your next job gets done right!
+    </span>
+    <div class="image3">
+      <img src="static/images/carlos_pic2.jpg" alt="image1" height="550px">
+    </div>
+  </div>
+</div>
+
+
 </body>
 </html>

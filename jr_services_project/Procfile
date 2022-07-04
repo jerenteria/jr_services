@@ -1,0 +1,1 @@
+web: gunicorn jr_services_project.wsgi

@@ -1,7 +1,6 @@
-#container {
-  background-image: linear-gradient( 117deg,
-  rgba(123,216,96,1) 39.2%, 
-  rgba(255,255,255,1) 156.2% );
+.appointments {
+  text-align: center;
+  font-family: Rockwell;
 }
 
 #section1 {
@@ -14,8 +13,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
-
   
 }
 
@@ -29,32 +26,32 @@
   flex-basis: 40%;
   max-width: 100%;
   padding-top: 25px;
+  margin-right: 38px;
 }
 
 .image2 {
   flex-basis: 40%;
   max-width: 100%;
   padding-top: 25px;
-  margin-left: 43px;
 }
 
 .image3 {
   flex-basis: 40%;
   max-width: 100%;
   padding-top: 25px;
-  margin-right: 245px;
+  margin-right: 38px;
 }
 
 .text{
-  font-family: cursive;
+  font-family: Rockwell;
   text-align: center;
   margin-left: 29px;
-  font-size: 20px;
+  font-size: 30px;
   padding: 25px;
 }
 
-.style {
-  font-family: cursive;
+.title {
+  font-family: Rockwell;
   font-size: 50px;
   text-align: center;
   color: black;
