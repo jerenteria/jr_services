@@ -1,7 +1,24 @@
-.appointments {
-  text-align: center;
+.title {
   font-family: Rockwell;
+  font-size: 40px;
+  padding: 25px;
+  text-align: center;
+  background-color: rgb(59, 167, 59);
+  
 }
+
+.title-pic {
+  position: absolute; 
+  margin-top: 40px;
+  margin-left: 5px;
+}
+
+.title-pic2 {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 1660px;
+}
+
 
 #section1 {
   display: flex;
@@ -48,11 +65,4 @@
   margin-left: 29px;
   font-size: 30px;
   padding: 25px;
-}
-
-.title {
-  font-family: Rockwell;
-  font-size: 50px;
-  text-align: center;
-  color: black;
 }
