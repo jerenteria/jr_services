@@ -6,45 +6,24 @@
     <title>Home</title>
     <link rel="stylesheet" type="text/css" href="static/css/style.css">
     <link rel="shortcut icon" type="image/x-icon" href="static/images/tree.png"/>
-
 </head>
 <body>
   {% load static %}
-  <div id="container">
-    <div class="title-pic"><img src="static/images/tree.png" alt="tree image" height="70px"></div>
-    <div class="title-pic2"><img src="static/images/tree.png" alt="tree image" height="70px"></div>
-    <h3 class="title">
-      Welcome To JR Services! A Family Owned Business
-      <br>
-      With Over 25 Years of Experience!
-    </h3>
-    <div id="section1">
-          <span class="text">With over 25 years in the industry we have all the experience and tools we need to
-            get the job done right! Feel free to contact us for more information!
-          </span>
-          <div class="image">
-            <img src="static/images/dad_pic1.jpg" alt="image1" height="550px">
-          </div>
+  <section>
+    <div class="header">
+      <h2 id="header-text">Welcome To JR Services!</h2>
+      <img src="/static/images/tree.png" alt="tree" id="tree-pic-header">
+      <h3 id ="header-info">
+        <ion-icon name="call-outline"></ion-icon>
+        650-454-2796
+      </h3>
+      <h3 id ="header-email">
+        <ion-icon name="mail-outline"></ion-icon>
+        jrservices@gmail.com
+      </h3>
     </div>
-    <div id="section2">
-      <span class="text">Getting ready to climb 60ft Oak tree in Los Altos Hills. We currently work in the
-        Los Altos Hills, Los Altos, and  Portola Valley area!
-      </span>
-      <div class="image2">
-        <img src="static/images/dad_pic2.jpg" alt="image1" height="550px">
-      </div>
-  </div>
-  <div id="section3">
-    <span class="text">Safety is our main concern. As you can see one of our workers cutting a huge
-      limb from a tree but being supported, so the branch does not come crashing down. This is the
-      experience you need to make sure your next job gets done right!
-    </span>
-    <div class="image3">
-      <img src="static/images/carlos_pic2.jpg" alt="image1" height="550px">
-    </div>
-  </div>
-</div>
-
-
+  </section>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

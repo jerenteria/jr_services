@@ -1,73 +1,33 @@
-
-#container {
-  background-color: lightgrey;
+* {
+  padding: 0px;
+  margin: 0px;
 }
 
-.title {
-  font-family: Rockwell;
-  font-size: 40px;
-  padding: 25px;
+.header {
+  background-color: green;
   text-align: center;
-  background-color: rgb(59, 167, 59);
-  
+  padding: 50px;
 }
 
-.title-pic {
-  position: absolute; 
-  margin-top: 40px;
-  margin-left: 5px;
+.header-text {
+
 }
 
-.title-pic2 {
+#tree-pic-header {
   position: absolute;
-  margin-top: 40px;
-  margin-left: 1660px;
+  left: 25px;
+  top: 25px;
+  height: 85px;
 }
 
-
-#section1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+#header-info {
+position: absolute; 
+top: 15px; 
+right: 25px;
 }
 
-#section2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  
-}
-
-#section3 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.image {
-  flex-basis: 40%;
-  max-width: 100%;
-  padding-top: 25px;
-  margin-right: 38px;
-}
-
-.image2 {
-  flex-basis: 40%;
-  max-width: 100%;
-  padding-top: 25px;
-}
-
-.image3 {
-  flex-basis: 40%;
-  max-width: 100%;
-  padding-top: 25px;
-  margin-right: 38px;
-}
-
-.text{
-  font-family: Rockwell;
-  text-align: center;
-  margin-left: 29px;
-  font-size: 30px;
-  padding: 25px;
+#header-email {
+  position: absolute;
+  top: 15px;
+  right: 170px;
 }

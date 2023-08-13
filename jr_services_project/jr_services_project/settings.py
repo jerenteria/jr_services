@@ -25,7 +25,7 @@ SECRET_KEY = 'j2ai1v0yeupur&f25if7lhe*dciratsjpuqjls-1vgefr#ve&5'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'www.jrtreeexperts.com', 'jrtreeexperts.com', 'http://52.15.47.118/', 'renteria-jr-services.herokuapp.com', 'www.jrtreecompany.com', 'jrtreecompany.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'http://52.15.47.118/', 'renteria-jr-services.herokuapp.com', 'www.jrtreecompany.com', 'jrtreecompany.com']
 
 
 # Application definition
