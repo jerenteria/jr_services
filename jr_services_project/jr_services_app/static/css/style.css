@@ -4,12 +4,13 @@
 }
 
 .header {
+  color: white;
   background-color: green;
   text-align: center;
-  padding: 50px;
+  padding: 45px;
 }
 
-.header-text {
+#header-text {
 
 }
 
@@ -30,4 +31,107 @@ right: 25px;
   position: absolute;
   top: 15px;
   right: 170px;
+}
+
+.top-image {
+  position: relative;
+  width: 100%;
+  height: 750px;
+  opacity: 0.8; 
+}
+
+.about-us-top {
+  position: absolute;
+  box-shadow: 10px 10px 20px black;
+  background-color: rgba(50, 168, 15, 0.486);
+  background-blend-mode: darken;
+  border: thick solid black;
+  border-radius: 15px;
+  color: white;
+  padding: 30px;
+  left: 15px;
+  top: 391px;
+}
+
+#second-bubble-top-pic {
+  position: absolute;
+  box-shadow: 10px 10px 20px black;
+  background-color: rgba(50, 168, 15, 0.486);
+  background-blend-mode: darken;
+  border: thick solid black;
+  border-radius: 15px;
+  color: white;
+  padding: 30px;
+  right: 15px;
+  top: 380px;
+}
+
+#second-bubble-top-pic h2 {
+  display: inline-block;
+}
+
+.pics-overlaying-trees {
+  position: absolute;
+  right: 15px;
+  bottom: 100px;
+}
+
+#dad-pic {
+  border: thick solid black;
+  box-shadow: 10px 10px 20px black;
+  border-radius: 10px;
+  margin-right: 25px;
+}
+
+#carlos-pic {
+  border: thick solid black;
+  box-shadow: 10px 10px 20px black;
+  border-radius: 10px;
+}
+
+.about-us-mid {
+  text-align: center;
+  font-size: 25px;
+  padding: 115px;
+}
+
+.about-us-mid p {
+  text-align: justify;
+  margin-top: 15px;
+}
+
+.serving-areas {
+  color: white;
+  background-color: green;
+  box-shadow: 10px 10px 20px black;
+  border: thick solid black;
+  border-radius: 55px;
+  padding: 30px;
+  margin: 0px 200px 75px 200px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.gardening-service {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.grass-pic {
+  flex-basis: 70%;
+  max-width: 100%;
+  margin-left: 35px;
+}
+
+.text-next-to-grass-pic {
+  text-align: center;
+  padding: 40px;
+  left: 55px;
+  bottom: 390px;
+  font-size: 25px;
+}
+
+#grass-text {
+  text-align: justify;
 }
