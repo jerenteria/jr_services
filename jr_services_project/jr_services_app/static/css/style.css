@@ -135,3 +135,30 @@ right: 25px;
 #grass-text {
   text-align: justify;
 }
+
+.footer {
+  background-color: green;
+  color: white;
+  margin-top: 75px;
+  padding: 30px;
+  font-size: 25px;
+}
+
+#bottom-contact {
+  display: inline-block;
+  margin-left: 60px;
+}
+
+#company-address {
+  display: inline-block;
+  position: relative;
+  left: 460px;
+}
+
+#social-media-links {
+  display: inline-block;
+  position: relative;
+  left: 966px;
+  top: -29px;
+}
+
